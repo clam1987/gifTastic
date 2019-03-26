@@ -44,7 +44,7 @@ var politicians = ["kamala harris", "barack obama", "donald trump", "cory booker
 
         for (var i = 0; i < politicians.length; i++) {
             var newButton = $("<button>");
-            newButton.attr("class", "btn btn-primary");
+            newButton.attr("class", "btn btn-warning");
             newButton.attr("id", "input");
             newButton.attr("data-name", politicians[i]);
             newButton.text(politicians[i]);
