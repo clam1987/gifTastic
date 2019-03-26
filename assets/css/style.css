@@ -2,17 +2,25 @@ button, div, form, input {
     margin: 5px;
 }
 
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 img {
     max-width: 300px;
     max-height: 300px;
 }
 
 label {
-    color: blue;
+    color:darkorange;
+    background-color:black;
+    padding: 10px;
+    z-index: 1000;
 }
 
 .btn {
     margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -32,6 +40,7 @@ min-height: 100%;
 width: 100%;
 height: auto;
 position: fixed;
+z-index: -100; 
 
 }
 
@@ -40,4 +49,8 @@ position: fixed;
         left: 50%;
         margin-left: -512px;
     }
+}
+
+#form{
+    float: right;
 }
