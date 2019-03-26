@@ -1,0 +1,43 @@
+button, div, form, input {
+    margin: 5px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+label {
+    color: blue;
+}
+
+.btn {
+    margin: 5px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #dddddd
+}
+
+.holder{
+    float:left;
+}
+
+#background {
+max-width: 1920px;
+min-height: 100%;
+width: 100%;
+height: auto;
+position: fixed;
+
+}
+
+@media screen and (max-width: 1024px) {
+    #background {
+        left: 50%;
+        margin-left: -512px;
+    }
+}
